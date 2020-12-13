@@ -143,13 +143,13 @@
   });
 
   // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
+  // $('.skills-content').waypoint(function() {
+  //  $('.progress .progress-bar').each(function() {
+  //    $(this).css("width", $(this).attr("aria-valuenow") + '%');
+  //  });
+  //}, {
+  //  offset: '80%'
+  //});
 
   // Testimonials carousel (uses the Owl Carousel library)
   // $(".testimonials-carousel").owlCarousel({
@@ -161,15 +161,15 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item'
+    var experienceIsotope = $('.experience-container').isotope({
+      itemSelector: '.experience-item'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#experience-flters li').on('click', function() {
+      $("#experience-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      experienceIsotope.isotope({
         filter: $(this).data('filter')
       });
     });
@@ -180,8 +180,8 @@
     });
   });
 
-  // Portfolio details carousel
-  //$(".portfolio-details-carousel").owlCarousel({
+  // experience details carousel
+  //$(".experience-details-carousel").owlCarousel({
   //  autoplay: true,
   //  dots: true,
   //  loop: true,
