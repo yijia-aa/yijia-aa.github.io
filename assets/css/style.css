@@ -541,10 +541,10 @@ section {
 }
 
 .about .content .skill-img {
-  width: 100px;
-  height: 100px;
-  margin: 10px auto;
-  padding: 80px 0;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 5px;
   position: relative;
 }
 
