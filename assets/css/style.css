@@ -316,7 +316,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#hero .hero-
+ {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -680,7 +681,7 @@ section {
 
 .resume .resume-item::before {
   content: "";
-  position: absolute;
+  position: relative;
   width: 16px;
   height: 16px;
   border-radius: 50px;
