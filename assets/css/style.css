@@ -691,9 +691,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# My Services
+# My blogs
 --------------------------------------------------------------*/
-/*.services .icon-box {
+/*.blogs .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -704,7 +704,7 @@ section {
   border: 1px solid #fff;
 }
 
-.services .icon {
+.blogs .icon {
   margin: 0 auto 20px auto;
   padding-top: 17px;
   display: inline-block;
@@ -715,34 +715,34 @@ section {
   background: #fff4df;
 }
 
-.services .icon i {
+.blogs .icon i {
   font-size: 36px;
   line-height: 1;
   color: #ffb727;
 }
 
-.services .title {
+.blogs .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.blogs .title a {
   color: #111;
   transition: 0.3s;
 }
 
-.services .description {
+.blogs .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.blogs .icon-box:hover {
   border-color: #ffb727;
 }
 
-.services .icon-box:hover .title a {
+.blogs .icon-box:hover .title a {
   color: #ffb727;
 }
 
